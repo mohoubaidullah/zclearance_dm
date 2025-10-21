@@ -10,9 +10,9 @@ server:
         ignoreCertError: false
         backend:
           - path: /sap
-            url: https://dev.berain.com.sa:44310/
-            client: "100"
-            destination: DEV_BRN_HEC
+            url: http://93.112.9.44:8060/
+            client: "786"
+            destination: DEV_BRN_786
         ui5:
           path:
             - /resources
